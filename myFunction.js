@@ -3,7 +3,7 @@ console.log('Loading function');
 
 let doc = require('dynamodb-doc');
 let dynamo = new doc.DynamoDB();
-
+let dynamo2 = new doc.DynamoDB();
 /**
  * Provide an event that contains the following keys:
  *
